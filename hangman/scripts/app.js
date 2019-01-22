@@ -1,7 +1,3 @@
-// HTTP (hyper text transfer protocol)
-// request - what do we want to do 
-// response - what was actually done
-
 const div = document.createElement('div')
 const puzzleElement = document.createElement('div')
 const guessElement = document.createElement('p')
@@ -13,13 +9,12 @@ puzzleElement.setAttribute('id', 'puzzle')
 puzzleElement.setAttribute('class', 'puzzle')
 
 guessElement.setAttribute('id', 'guesses')
-//guessElement.setAttribute('class', 'warning')
 
 resetBtn.setAttribute('id', 'reset')
 resetBtn.setAttribute('class', 'button')
 resetBtn.textContent = 'Reset'
 
-title.textContent = 'Hangman'
+title.textContent = 'Second Guesser'
 
 
 document.querySelector('body').appendChild(div)
